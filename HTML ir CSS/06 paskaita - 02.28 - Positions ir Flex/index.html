@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>06 paskaita - Positions ir Flex</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="top_navigation">
+    <div class="logo">
+      <a href="">
+        <img src="./images/logo.png">
+      </a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="#static">Static</a></li>
+        <li><a href="#relative">Relative</a></li>
+        <li><a href="#absolute">Absolute</a></li>
+        <li><a href="#fixed">Fixed</a></li>
+        <li><a href="#sticky">Sticky</a></li>
+        <li><a href="#flex">Flex</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+    <h1>Pozicijos</h1>
+    <div class="konteineris" id="static">
+      <h3>Static</h3>
+      <div class="kvadratas static">Static 1</div>
+      <div class="kvadratas static">Static 2</div>
+      <div class="kvadratas static">Static 3</div>
+      <div class="kvadratas static">Static 4</div>
+    </div>
+    <div class="konteineris" id="relative">
+      <h3>Relative</h3>
+      <div class="kvadratas static">Static 1</div>
+      <div class="kvadratas relative r_100 b_200 z_-5">Relative 2</div>
+      <div class="kvadratas static">Static 3</div>
+      <div class="kvadratas static">Static 4</div>
+    </div>
+    <div class="konteineris relative h_500" id="absolute">
+      <h3>Absolute</h3>
+      <div class="kvadratas static">Static 1</div>
+      <div class="kvadratas static">Static 2</div>
+      <div class="kvadratas absolute b_200 r_100">Absolute 3</div>
+      <div class="kvadratas static">Static 4</div>
+    </div>
+    <div class="konteineris" id="fixed">
+      <h3>Fixed</h3>
+      <div class="kvadratas static">Static 1</div>
+      <div class="kvadratas fixed t_50 r_100 z_10">Fixed 2</div>
+      <div class="kvadratas static">Static 3</div>
+      <div class="kvadratas static">Static 4</div>
+    </div>
+    <div class="konteineris h_500 bg_red" id="sticky">
+      <h3>Sticky</h3>
+      <div class="kvadratas static">Static 1</div>
+      <div class="kvadratas sticky t_50 r_100">Sticky 2</div>
+      <div class="kvadratas static">Static 3</div>
+      <div class="kvadratas static">Static 4</div>
+    </div>
+  </section>
+  <section id="flex">
+    <h1>Display: flex</h1>
+    <div class="flex h_500 bg_red">
+      <div class="kvadratas">1</div>
+      <div class="kvadratas">2</div>
+      <div class="kvadratas">3</div>
+      <div class="kvadratas">4</div>
+      <div class="kvadratas">5</div>
+      <div class="kvadratas">6</div>
+      <div class="kvadratas">7</div>
+    </div>
+  </section>
+</body>
+</html>

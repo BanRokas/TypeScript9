@@ -1,0 +1,17 @@
+.rytas{
+  color: orange;
+  background-color: #000000;
+}
+
+.vakaras{
+  border: 5px dashed green;
+  border-radius: 10%;
+}
+
+.pastraipa{
+  font-size: 20px;
+  color: red;
+  background-color: aqua;
+  text-decoration: underline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
