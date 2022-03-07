@@ -1,0 +1,11 @@
+Užduotys:
+1) grid1 - pavyzdys kaip galima išskirstyti svetainės dalis su grid sistema.
+2) grid2 - bootstrap'o grid sistemos pavyzdys.
+3) grid3 - mažas pavyzdys kaip galima kokioje nors skiltyje išskirstyti elementų pozicijas.
+4) grid4 - visos svetainės pavyzdys kaip joje galėtų išsidėstyti visi elementai (galima naudoti grid'o nest'inimą. (vienoje grid sistemoje turėti kitą grid sistemą))
+5) gridFlexTASK - didelė praktinė užduotis pamatyti kokie išdėstymai patogiau padaromi su flex, o kurie su grid. Reikia visus išdėstymus atlikti ir su grid ir su flex nustatymais. (pradžioje siūlyčiau atlikti su grid, po to su flex. Su flex reikės nest'inimo (viename display flex turinčiame elemente kurti kitus elementus, kurie irgi turi display:flex))
+6) gridOverlap - pavyzdys kaip galima sukurti gražų vieną ant kito lipančių elementų vaizdinį naujant grid sistemą.
+7) gridPeriodicTable - kas viską spėja ir nori pasižaisti kiek daugiau gali sukurti kažką panašaus į šią perionę lentelę naudojant grid sistemą.
+
+Siūlomas eiliškumas:
+1, 2, 3, 5 (viską arba bent jau apie pusę su grid, flex pasidaryti vėliau), 6, 4, 7, 5 (pasibaigti grid (jei liko kas) ir pasidaryti flex).
