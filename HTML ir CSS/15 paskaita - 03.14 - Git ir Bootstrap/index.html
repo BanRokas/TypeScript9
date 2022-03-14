@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 paskaita - Git ir Bootstrap</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <section>
+    <h1>Darbas su GIT</h1>
+    <div>
+      <h3>Git setup</h3>
+      <dl>
+        <dt>git config --global user.name "Vartotojo vardas"</dt>
+        <dd>Git'ui globaliai nustato vartotojo vardą</dd>
+        <dt>git config --global user.email "Vartotojo paštas"</dt>
+        <dd>Git'ui globaliai nustato vartotojo paštą (reikia nurodyti tą, su kuriuo yra sukurta gitHub paskyra).</dd>
+        <dt>git config --global core.editor "code"</dt>
+        <dd>Git'ui globaliai nustato naudojamą editorių (šiuo atveju VisualStudioCode</dd>
+        <dt>git config --global core.autocrlf true (windows) | input (linux/mac)</dt>
+        <dd>Nurodo kaip git'ui elgis su kodo eilučių pabaigomis.</dd>
+      </dl>
+    </div>
+    <div>
+      <h3>Git darbas</h3>
+      <dl>
+        <dt>git status</dt>
+        <dd>Patikrina koks yra git'o failų statusas</dd>
+        <dt>git add fileName | . </dt>
+        <dd>Prideda nurodytus arba visus ( kai yra . ) failus į paruošiamąjį.</dd>
+        <dt>git commit -m "komentaras"</dt>
+        <dd>Sukuria naują kodo versiją su paruoštais failais. -m "komentaras" skirtas, kad būtų lengviau sekti commit'us.</dd>
+        <dt>git checkout -b sakosVardas</dt>
+        <dd>Pereina į nurodytą šaką (arba sukuria naują, jei yra -b opcija)</dd>
+        <dt>git merge sakosVardas</dt>
+        <dd>Prideda prie esamosios šakos informaciją, kuri yra nurodytoje šakoje.</dd>
+        <dt>git init</dt>
+        <dd>Sukuria git repozitoriją.</dd>
+        <dt>git remote add origin "nuoroda github repozitorijos"</dt>
+        <dd>Sujungia lokalią repozitoriją su github repozitorija.</dd>
+        <dt>git push -u origin master</dt>
+        <dt>Sukelia informaciją iš lokalios repozitorijos į github. (-u origin master - pirmam kartui ir vėliau jeigu yra daugiau šakų)</dt>
+        <dt>git pull</dt>
+        <dt>Sukelia informaciją iš github repozitorijos į lokalią.</dt>
+      </dl>
+    </div>
+  </section>
+</body>
+</html>
