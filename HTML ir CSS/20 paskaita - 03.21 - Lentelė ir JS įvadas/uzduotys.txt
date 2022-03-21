@@ -1,0 +1,24 @@
+Apie var let ir const plačiau čia: https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/
+
+
+1) Susikurti kintamuosius su reikšmingais pavadinimais ir informacija.
+1.1) 5 string.
+1.2) 5 int.
+1.3) 3 bool.
+
+2) Sudėti / atimti įvairius kintamuosius vienus iš kitų. Atsakymus išvedinėti į konsolę.
+2.1) string+bool.
+2.2) string-bool.
+2.3) number+string.
+2.4) number-string.
+2.5) bool+number.
+2.6) bool-number.
+
+3) Atlikite matematinius veiksmus su:
+3.1) Sudėtimi
+3.2) Atimtimi
+3.3) Daugyba
+3.4) Dalyba
+3.5) Likučio radimu
+3.6) Laipsnio kėlimu
+3.7) Šaknies traukimu
