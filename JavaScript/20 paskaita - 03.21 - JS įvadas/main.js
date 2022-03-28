@@ -1,6 +1,6 @@
 // Susipažinimas su JS
 console.log("External 2"); // išvedimas į konsolę
-console.log(document.querySelector("#lentele"));
+console.dir(document.querySelector("#lentele"));
 /*console.log(document.querySelector("#lentele"));
 console.log(document.querySelector("#lentele"));
 console.log(document.querySelector("#lentele"));
