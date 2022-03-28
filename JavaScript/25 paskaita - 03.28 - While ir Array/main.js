@@ -111,3 +111,24 @@ while(Math.random()*10 > 2){
 do{
   console.log("darome");
 } while (Math.random()*10 > 2);
+
+// siūlyčiau naudoti break;
+function rastiPirminius(nuo, iki){
+  if(nuo < 2){
+    nuo = 2;
+  }
+  const pirminiuMasyvas = [];
+  for(1;2;3){ // nuo nuo iki iki
+    
+    let arPirminis = true;
+    for(1;2;3){ // nuo 2 iki i
+
+    }
+    if(1){
+
+    }
+  }
+  return pirminiuMasyvas;
+}
+
+rastiPirminius(0, 100)
