@@ -22,7 +22,6 @@ ko pasiekia
 // eilutes
 
 
-
 //                Extra
 /*
   , - skirtas atskirti informacijai vieną nuo kitos
