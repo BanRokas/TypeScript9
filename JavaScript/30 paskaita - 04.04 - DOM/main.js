@@ -1,0 +1,44 @@
+/*                DOM - Document Object Model
+  Kreipimasis į elementus:
+    old) getElement... 
+      1) getElementById - gauna elementą su nurodytu ID
+      2) getElementsByClassName - gauna elementus su nurodyta klase
+      3) getElementsByTagName - gauna elementus su nurodytų tag'o vardu
+    new) querySelector | querySelectorAll
+      1) querySelector("#name") - gauti elementą su id "name"
+      2) querySelectorAll("#name") - gauti visus elementus su id "name"
+      3) querySelector(".name") - gauti elementą su klase "name"
+      4) querySelectorAll(".name") - gauti visus elementus su klase "name"
+      5) querySelector("name") - gauti elementą su tag'u "name"
+      6) querySelectorAll("name") - gauti visus elementus su tag'u "name"
+
+      teisingai1) querySelector("selektinimas(kaip CSS'e)") - gauna vieną elementą pagal nurodytą selektinimą
+      teisingai2) querySelectorAll("selektinimas(kaip CSS'e)") - gauna visus elementus pagal nurodytą selektinimą
+
+*/
+let senasID = document.getElementById("unikalus");
+let senasKlase = document.getElementsByClassName("neUnikali");
+let senasTag = document.getElementsByTagName("li");
+
+console.dir(senasID);
+console.dir(senasKlase);
+console.dir(senasTag);
+console.log("----------------------------------------");
+let naujasVienasID = document.querySelector("#unikalus");
+let naujasDaugID = document.querySelectorAll("#unikalus");
+let naujasVienasKlase = document.querySelector(".neUnikali");
+let naujasDaugKlase = document.querySelectorAll("nav .neUnikali");
+let naujasVienasTag = document.querySelector("li");
+let naujasDaugTag = document.querySelectorAll("li");
+
+console.dir(naujasVienasID);
+console.dir(naujasDaugID);
+console.dir(naujasVienasKlase);
+console.dir(naujasDaugKlase);
+console.dir(naujasVienasTag);
+console.dir(naujasDaugTag);
+
+
+console.dir(naujasDaugID[1].parentElement.previousElementSibling);
+const navigation = document.querySelector(".navigation");
+console.dir(navigation.querySelectorAll(".neUnikali"));
