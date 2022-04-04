@@ -27,7 +27,7 @@ console.log("----------------------------------------");
 let naujasVienasID = document.querySelector("#unikalus");
 let naujasDaugID = document.querySelectorAll("#unikalus");
 let naujasVienasKlase = document.querySelector(".neUnikali");
-let naujasDaugKlase = document.querySelectorAll("nav .neUnikali");
+let naujasDaugKlase = document.querySelectorAll(".neUnikali");
 let naujasVienasTag = document.querySelector("li");
 let naujasDaugTag = document.querySelectorAll("li");
 
@@ -39,6 +39,17 @@ console.dir(naujasVienasTag);
 console.dir(naujasDaugTag);
 
 
-console.dir(naujasDaugID[1].parentElement.previousElementSibling);
+console.dir(naujasDaugID[1].parentElement);
 const navigation = document.querySelector(".navigation");
 console.dir(navigation.querySelectorAll(".neUnikali"));
+
+
+naujasDaugTag[0].style.color = "red"; // very good
+naujasDaugTag[0].style.backgroundColor = "black";
+naujasDaugTag[1].setAttribute("style","background-color:orange");
+naujasDaugTag[1].setAttribute("style","color:white;background-color:orange"); // nepatogus dažniausiu atveju
+naujasDaugTag[2].className += " colorBlue";
+naujasDaugTag[2].classList.value += " border"; // niekas nedaro
+naujasDaugTag[2].classList.add("fontBig"); // BEST
+naujasDaugTag[3].id = "bgRed";
+
