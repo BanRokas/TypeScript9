@@ -1,0 +1,13 @@
+0) HTML'e susikurkite 5 sekcijas.
+
+1) JS'u pridėkite 1 sekcijai paragrafo tekstą.
+2) JS'u pridėkite 2 sekcijai antraštės ir paragrafo tekstą.
+3) JS'u pridėkite 3 sekcijai antraštės tekstą ir div'o viduje sukurkite bent 3 paveikslėlius.(pridėkite img tag'ų)
+4) JS'u pridėkite 4 sekcijai antraštės tekstą ir bent 6 ilgio nerikiuotą sąrašą su duomenimis.
++5) JS'u pridėkite 5 sekcijai antraštės tekstą ir lentelę su bent 3 stulpeliais ir 4 eilutėmis supildytomis kokia nors informacija.
+-----------------------------------------------------------------
+extra) Stilizuokite 1-5 užduočių informaciją panaudodami JS'ą.
+
+CAO:
+  Lesson 9
+  (ir Lesson4 su DOM jei kas nepasidarę)

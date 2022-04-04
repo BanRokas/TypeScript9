@@ -14,7 +14,6 @@
 
       teisingai1) querySelector("selektinimas(kaip CSS'e)") - gauna vieną elementą pagal nurodytą selektinimą
       teisingai2) querySelectorAll("selektinimas(kaip CSS'e)") - gauna visus elementus pagal nurodytą selektinimą
-
 */
 let senasID = document.getElementById("unikalus");
 let senasKlase = document.getElementsByClassName("neUnikali");
@@ -53,3 +52,21 @@ naujasDaugTag[2].classList.value += " border"; // niekas nedaro
 naujasDaugTag[2].classList.add("fontBig"); // BEST
 naujasDaugTag[3].id = "bgRed";
 
+let textNode = document.createTextNode("tekstas");
+
+const outputas = document.querySelector(".output");
+outputas.prepend(textNode);
+
+let tekstas = "sarasas";
+let masyvas = [1,2,3,4,5,6];
+
+outputas.innerHTML += `
+  <div> Labas </div>
+  <p> ${tekstas} </p>
+  <ul>
+    ${masyvas.map(element => `<li> ${element} </li>`)}
+    <li> teip </li>
+    <li> ir šiteip </li>
+  </ul>
+`;
+// kad nebūtų kablelių reiktų naudoti forEach'ą. Kiekvienos iteracijos metu kurti naujus elementus ir juos append'inti į nurodytą vietą.
