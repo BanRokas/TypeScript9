@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>35 paskaita - Form</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <section>
+    <h1>Praktikuojamės su forma</h1>
+    <form>
+      <div class="inputField">
+        <label for="tekstas">Tekstas</label>
+        <input type="text" name="tekstas" id="tekstas">
+      </div>
+      <div class="inputField">
+        <label for="slaptazodis">Slaptažodis</label>
+        <input type="password" name="slaptazodis" id="slaptazodis">
+      </div>
+      <div class="inputField">
+        <label for="pastas">El. Paštas</label>
+        <input type="email" name="pastas" id="pastas">
+      </div>
+      <div class="inputField">
+        <label for="skaicius">Skaičius</label>
+        <input type="number" name="skaicius" id="skaicius">
+      </div>
+      <div class="inputField">
+        <label for="telefonas">Telefonas</label>
+        <input type="tel" name="telefonas" id="telefonas">
+      </div>
+      <div class="inputField">
+        <label for="dataIrLaikas">Data ir Laikas</label>
+        <input type="datetime-local" name="dataIrLaikas" id="dataIrLaikas">
+      </div>
+      <div class="inputField">
+        <label for="spalva">Spalva</label>
+        <input type="color" name="spalva" id="spalva">
+      </div>
+      <div class="inputField">
+        <label for="nuoroda">Nuoroda</label>
+        <input type="url" name="nuoroda" id="nuoroda">
+      </div>
+      <div class="inputField">
+        <label for="failas">Failas</label>
+        <input type="file" name="failas" id="failas">
+      </div>
+      <div class="inputField">
+        <label for="riba">Riba</label>
+        <input type="range" name="riba" id="riba">
+      </div>
+      <div class="inputField">
+        <label for="tekstoLaukas">Teksto laukas</label>
+        <textarea name="tekstoLaukas" id="tekstoLaukas"></textarea>
+      </div>
+      <div class="inputField">
+        <label for="pasirinkimas">Pasirinkimas</label>
+        <select name="pasirinkimas" id="pasirinkimas">
+          <option value="0">Pasirinkite</option>
+          <option value="1">Šuo</option>
+          <option value="2">Katė</option>
+        </select>
+      </div>
+      <div class="inputFieldDown">
+        <label for="">CheckBox (multiChoise)</label>
+        <div class="inputField ml_2">
+          <div>
+            <label for="pirmas">Pirmas</label>
+            <input type="checkbox" name="checkBoxas" id="pirmas" value="pirmas">
+          </div>
+          <div>
+            <label for="antras">Antras</label>
+            <input type="checkbox" name="checkBoxas" id="antras" value="antras">
+          </div>
+          <div>
+            <label for="trecias">Trečias</label>
+            <input type="checkbox" name="checkBoxas" id="trecias" value="trecias">
+          </div>
+        </div>
+      </div>
+      <div class="inputFieldDown">
+        <label for="">Radio (singleChoise)</label>
+        <div class="inputField ml_2">
+          <div>
+            <label for="pirmasR">Pirmas</label>
+            <input type="radio" name="radioCheckas" id="pirmasR" value="pirmasR">
+          </div>
+          <div>
+            <label for="antrasR">Antras</label>
+            <input type="radio" name="radioCheckas" id="antrasR" value="antrasR">
+          </div>
+          <div>
+            <label for="treciasR">Trečias</label>
+            <input type="radio" name="radioCheckas" id="treciasR" value="treciasR">
+          </div>
+        </div>
+      </div>
+
+      <input type="submit">
+      <!-- <button>Submit</button> -->
+    </form>
+  </section>
+</body>
+</html>

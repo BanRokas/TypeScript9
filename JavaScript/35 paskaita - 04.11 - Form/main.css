@@ -1,0 +1,10 @@
+.inputField{
+  display: flex;
+}
+.inputFieldDown{
+  display: flex;
+  flex-direction: column;
+}
+.ml_2{
+  margin-left: 2rem;
+}
