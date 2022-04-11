@@ -9,12 +9,12 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-  <section>
+  <section id="bendras" class="slepti">
     <h1>Praktikuojamės su forma</h1>
     <form>
       <div class="inputField">
         <label for="tekstas">Tekstas</label>
-        <input type="text" name="tekstas" id="tekstas">
+        <input type="text" name="tekstas" id="tekstas" required placeholder="Teksto vieta...">
       </div>
       <div class="inputField">
         <label for="slaptazodis">Slaptažodis</label>
@@ -102,6 +102,32 @@
       <input type="submit">
       <!-- <button>Submit</button> -->
     </form>
+  </section>
+  <section id="task1" class="slepti">
+    <div id="forma1">
+      <form>
+        <input type="number" name="sudNr1" id="sudNr1" placeholder="Įveskite pirmą skaičių...">
+        <input type="number" name="sudNr2" id="sudNr2" placeholder="Įveskite antrą skaičių...">
+        <input type="submit" value="Sudėti">
+        <!-- <button>Sudėti</button> -->
+      </form>
+      <div id="output1"></div>
+    </div>
+  </section>
+  <section id="task2">
+    <form>
+      <input type="number" name="nr1" id="nr1" placeholder="Įveskite pirmą skaičių...">
+      <select name="veiksmas" id="veiksmas">
+        <option value=""></option>
+        <option value="sudetis">+</option>
+        <option value="atimtis">-</option>
+        <option value="daugyba">*</option>
+        <option value="dalyba">/</option>
+      </select>
+      <input type="number" name="nr2" id="nr2" placeholder="Įveskite antrą skaičių...">
+      <input type="submit" value="=">
+    </form>
+    <div id="output5"></div>
   </section>
 </body>
 </html>
