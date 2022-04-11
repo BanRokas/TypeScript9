@@ -1,0 +1,3 @@
+Padaryti skaičiuotuvą:
+1) 4 formas su 2 input number field'ais, submit mygtukais ir vieta atsakymui. Viena forma - vienas veiksmas.
+2) 1 forma su 2 input number field'ais, 1 select field'u, kuriame bus veiksmo pasirinkimas, submit mygtukas ir vieta atsakymui. ( sudėtis, atimtis, daugyba, dalyba, likutis, kėlimas laipsniu, šaknies traukimas )
