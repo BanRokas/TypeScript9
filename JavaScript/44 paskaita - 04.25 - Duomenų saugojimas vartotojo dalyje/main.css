@@ -1,0 +1,26 @@
+.kartu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formIrOutput{
+  display: flex;
+}
+
+#formIrOutput form > fieldset{
+  display: flex;
+  flex-direction: column;
+}
+#formIrOutput input{
+  margin-top: 10px;
+}
+
+#duomenuIsvedimas{
+  min-width: 200px;
+}
+
+.item{
+  margin-left: 5px;
+  float: right;
+}
