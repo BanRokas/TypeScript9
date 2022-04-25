@@ -12,6 +12,3 @@ Savarankiškai:
 EXTRA:
   Paspaudus submit mygtuką visa informacija iš formos turi būti išsaugota localStorage kaip didelis objektas (objekto arba objekto+masyvo+objekto pavidalu), o pati forma išvalyta ir jos laukų informacija pamiršta (išvalyta iš localStorage).
   Paspaudus reset mygtuką - localStorage esanti formos laukų informacija yra išvaloma. (neišvalomi supildytos ir submit'intos formos informacija)
-
-Papildomai:
-  Snake žaidime saugoti top 10 score.
