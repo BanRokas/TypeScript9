@@ -23,6 +23,7 @@ class Asmuo{
 }
 
 /* Užduotys */
+
 // 1
 class Car{
   constructor(name, year){
@@ -40,3 +41,24 @@ class Car{
 }
 const manoMasina = new Car("Fiat", "2001");
 console.log(manoMasina);
+console.log(manoMasina.age());
+
+// 2
+class Rectangle{
+  constructor(width, height){
+    this.width = width;
+    this.height = height;
+    this.color = `#${Math.floor(Math.random()*16777215).toString(16)}`; // hex
+    //this.color = `rgb(${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)}, ${Math.floor(Math.random()*256)})`; // rgb
+  }
+  area = () => {
+    return this.width * this.height;
+  }
+  perimeter = () => {
+    return this.width*2 + this.height*2;
+  }
+}
+const manoKvadratas = new Rectangle(10, 12);
+console.log(manoKvadratas);
+console.log(manoKvadratas.area());
+console.log(manoKvadratas.perimeter());
