@@ -1,0 +1,7 @@
+.straipsnis{
+  border: 1px solid black;
+}
+#sukurti textarea{
+  width: 80%;
+  height: 50px;
+}

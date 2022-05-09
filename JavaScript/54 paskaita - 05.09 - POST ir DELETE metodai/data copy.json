@@ -1,0 +1,23 @@
+{
+  "straipsniai" : [{
+    "id": 1,
+    "vardas": "Rokas",
+    "pavadinimas": "Ice age is greatest movie ever",
+    "straipsnis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, alias officia saepe voluptatibus adipisci exercitationem quae assumenda debitis voluptatem ipsa pariatur consectetur, nobis non eligendi provident corporis facere! Iusto, in."
+  }, {
+    "id": 2,
+    "vardas": "Petras",
+    "pavadinimas": "Hello kitty",
+    "straipsnis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, alias officia saepe voluptatibus adipisci exercitationem quae assumenda debitis voluptatem ipsa pariatur consectetur, nobis non eligendi provident corporis facere! Iusto, in."
+  }, {
+    "id": 3,
+    "vardas": "Faustas",
+    "pavadinimas": "What a beautiful world",
+    "straipsnis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, alias officia saepe voluptatibus adipisci exercitationem quae assumenda debitis voluptatem ipsa pariatur consectetur, nobis non eligendi provident corporis facere! Iusto, in."
+  }, {
+    "id": 4,
+    "vardas": "Bendžeminas",
+    "pavadinimas": "The way we sound",
+    "straipsnis": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, alias officia saepe voluptatibus adipisci exercitationem quae assumenda debitis voluptatem ipsa pariatur consectetur, nobis non eligendi provident corporis facere! Iusto, in."
+  }]
+}

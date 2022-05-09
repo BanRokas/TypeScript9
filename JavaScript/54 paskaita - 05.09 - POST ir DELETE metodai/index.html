@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>54 paskaita - POST ir DELETE</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <section id="sukurti"> <!-- sukuriame duomenis -->
+    <form>
+      <div class="formosLaukelis">
+        <label for="vardas">Jūsų vardas:</label>
+        <input type="text" name="vardas" id="vardas" required>
+      </div>
+      <div class="formosLaukelis">
+        <label for="pavadinimas">Straipsnio pavadinimas:</label>
+        <input type="text" name="pavadinimas" id="pavadinimas" required>
+      </div>
+      <div class="formosLaukelis">
+        <label for="straipsnis">Jūsų straipsnis:</label>
+        <textarea name="straipsnis" id="straipsnis" required></textarea>
+      </div>
+      <div class="formosLaukelis">
+        <input type="submit" value="Pateikti straipsnį">
+      </div>
+    </form>
+  </section>
+  <section id="duomenuIsvestis"> <!-- atvaizduojame duomenis su galimybe juos trinti -->
+    <!-- <div class="straipsnis">
+      <h1>Pavadinimas</h1>
+      <h3>Autorius</h3>
+      <p>Straipsnis</p>
+      <button class="delete">X</button>
+    </div> -->
+  </section>
+</body>
+</html>
